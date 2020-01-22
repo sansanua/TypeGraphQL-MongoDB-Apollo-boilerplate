@@ -1,0 +1,1 @@
+# TypeGraphQL-MongoDB-Apollo-boilerplate
