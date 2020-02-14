@@ -1,15 +1,12 @@
 {
     "name": "default",
     "type": "mongodb",
-    "port": 11709,
-    "url": "mongodb://<userName>:<password>@ds211709.mlab.com:11709/commute",
+    "url": "mongodb://<userName>:<password>@ds211709.mlab.com:11709/<dbName>",
 
     "useUnifiedTopology": true,
     "useNewUrlParser": true,
     "synchronize": true,
     "logging": true,
 
-    "entities": [
-        "src/entity/**/*.ts"
-    ]
+    "entities": ["src/entity/**/*.ts"]
 }
